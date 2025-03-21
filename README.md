@@ -7,18 +7,15 @@ Kurulum Talimatları
 1. Reponun Klonlanması
 
 Terminal veya komut satırında aşağıdaki komutu çalıştırarak projeyi klonlayın:
-bash
 git clone https://github.com/kadirbugrat/customer-management-app.git
 cd customer-management-app
 
 2. Backend (Spring Boot) Kurulumu
 
 backend dizinine geçin:
-bash
 cd backend
 
 Maven ile projeyi derleyip çalıştırın:
-bash
 mvn spring-boot:run
 
 Uygulama varsayılan olarak şu adreste çalışır:
@@ -27,15 +24,12 @@ http://localhost:8080
 3. Frontend (React) Kurulumu
 
 Yeni bir terminal penceresi açın ve frontend dizinine geçin:
-bash
 cd frontend
 
 Gerekli bağımlılıkları yükleyin:
-bash
 npm install
 
 React uygulamasını başlatın:
-bash
 npm start
 
 Uygulama varsayılan olarak şu adreste çalışır:
@@ -45,7 +39,7 @@ Kullanıcı Girişi
 
 Projede bir kullanıcı giriş ekranı bulunmaktadır.
 Kullanıcı Adı: admin
-Şifre: admin123
+Şifre: 1234
 
 Giriş yaptıktan sonra aşağıdaki işlemleri gerçekleştirebilirsiniz:
 Müşteri listesi görüntüleme
@@ -55,9 +49,3 @@ Yeni müşteri ekleme
 Giriş yaptıktan sonra "Change Password" bağlantısına tıklayın.
 Açılan formda eski şifrenizi ve yeni şifrenizi girerek değişikliği yapabilirsiniz.
 Şifre değişikliği kalıcıdır ve veritabanına kaydedilir.
-
-Proje Yapısı
-customer-management-app/
-│
-├── backend/      → Spring Boot API (Java)
-└── frontend/     → React Uygulaması (JavaScript)
