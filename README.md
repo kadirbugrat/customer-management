@@ -39,7 +39,7 @@ Kullanıcı Girişi
 
 Projede bir kullanıcı giriş ekranı bulunmaktadır.
 Kullanıcı Adı: admin
-Şifre: 1234
+Şifre: admin123
 
 Giriş yaptıktan sonra aşağıdaki işlemleri gerçekleştirebilirsiniz:
 Müşteri listesi görüntüleme
