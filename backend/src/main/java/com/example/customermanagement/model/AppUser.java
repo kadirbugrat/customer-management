@@ -22,14 +22,12 @@ public class AppUser implements UserDetails {
     @Column(nullable = false)
     private String password;
 
-    // Roller, virgülle ayrılmış biçimde saklanıyor (örneğin: "ADMIN,USER")
     @Column(nullable = false)
     private String roles;
 
     public AppUser() {
     }
 
-    // Getter ve Setter'lar
     public Long getId() {
         return id;
     }
@@ -64,7 +62,6 @@ public class AppUser implements UserDetails {
         this.roles = roles;
     }
 
-    // UserDetails metodlarının implementasyonu
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return Arrays.stream(roles.split(","))
