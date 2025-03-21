@@ -7,7 +7,7 @@ Kurulum Talimatları
 1. Reponun Klonlanması
 
 Terminal veya komut satırında aşağıdaki komutu çalıştırarak projeyi klonlayın:
-git clone https://github.com/kadirbugrat/customer-management-app.git
+git clone https://github.com/kadirbugrat/customer-management.git
 cd customer-management-app
 
 2. Backend (Spring Boot) Kurulumu
